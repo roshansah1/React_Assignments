@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div{
+  background-color:#eb6564;
+  height: 100vh;
+  text-align: center;
+  color: #fff;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4rem;
+}
+
+h1{
+  font-size: 4rem;
+  margin: 0.5rem;
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+p{
+  font-size: 1.5rem;
+}
+
+i{
+  font-size: 2rem;
+}
+
+.small_font{
+  font-size: 1rem;
+}

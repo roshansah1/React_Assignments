@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.125rem;
+  line-height: 2.625rem;
+  margin: 2rem;
+}
+
+.main_div {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+p{
+  font-weight: 400;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.content{
+  width: 922px;
+  line-height:  1.5rem;
+}
+
+@media only screen and (max-width: 650px){
+  p{
+    font-size: 0.9rem;
+  }
+}
